@@ -855,7 +855,8 @@ h6 {
   align-self: flex-end;
 }
 .about__image img {
-  width: 100%;
+  width: 90%;
+  border-radius: 15px;
   padding-bottom: 15%;
 }
 .about__content {
@@ -1367,7 +1368,7 @@ h6 {
     /* background-image: url(./back2.jpg); */
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
       url("./back.gif");
-    background-position: 10% 70%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
