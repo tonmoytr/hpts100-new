@@ -1364,10 +1364,11 @@ h6 {
     display: inherit;
   }
   .hero {
-    /* background: rgb(80, 219, 80); */
+    background-color: #245ad5;
+    /* background: #; */
     /* background-image: url(./back2.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-      url("./back.gif");
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+      url("./back.gif"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
