@@ -53,6 +53,10 @@
         transform: scale(1.1);
       }
 
+      .hero-img {
+        margin-top: -12%;
+      }
+
       @media (max-width: 1024px) {
         .gallery-grid {
           grid-template-columns: repeat(2, 1fr);
@@ -62,6 +66,13 @@
       @media (max-width: 768px) {
         .gallery-grid {
           grid-template-columns: 1fr;
+        }
+
+        .mob-hidd {
+          display: hidden !important;
+        }
+        .hero-img {
+          margin-top: 5%;
         }
       }
 
@@ -73,6 +84,12 @@
         .gallery-section h2 {
           font-size: 1.5rem;
         }
+        .mob-hidd {
+          display: hidden !important;
+        }
+        .hero-img{
+        margin-top: 5%
+      }
       }
     </style>
     <link rel="stylesheet" href="assets/style.min5dec5dec.css" />
@@ -134,7 +151,11 @@
                 >
                   <img src="assets/x.svg" alt="X Logo" />
                 </a>
-                <a target="_blank" href="https://t.me/hpows200i" class="header__social-item">
+                <a
+                  target="_blank"
+                  href="https://t.me/hpows200i"
+                  class="header__social-item"
+                >
                   <img src="assets/telegram.svg" alt="Telegram Logo" />
                 </a>
               </div>
@@ -150,9 +171,15 @@
       <main class="page">
         <section class="page__hero hero">
           <div class="hero__container">
-            <h1 class="hero__title">
+            <img
+              style="width: 95%; max-width: 100%"
+              class="hero-img"
+              src="./assets/text.png"
+              alt=""
+            />
+            <!-- <h1 class="hero__title">
               <span style="color: red">HarryPotters<span style="color: #ffae00;">Wojak</span><span style="color: #d8e4ff;">Sonic</span><span><span style="color: orangered;">200</span><span style="color: pink;">Inu</span></span> </span>
-            </h1>
+            </h1> -->
             <p style="color: #ffae00" class="hero__text">
               Join the HarryPotterWojakSonic200Inu Revolution
             </p>
@@ -172,10 +199,18 @@
                 >
                   <img src="assets/solscan-logo.webp" alt="X Logo" />
                 </a> -->
-                <a target="_blank" href="https://x.com/realhpows200i" class="hero__social-item">
+                <a
+                  target="_blank"
+                  href="https://x.com/realhpows200i"
+                  class="hero__social-item"
+                >
                   <img src="assets/x.svg" alt="X Logo" />
                 </a>
-                <a target="_blank" href="https://t.me/hpows200i" class="hero__social-item">
+                <a
+                  target="_blank"
+                  href="https://t.me/hpows200i"
+                  class="hero__social-item"
+                >
                   <img src="assets/telegram.svg" alt="Telegram Logo" />
                 </a>
               </div>
@@ -218,18 +253,18 @@
                     data-watch-once=""
                     data-watch=""
                   >
-                    HarryPotterWojakSonic200Inu ($BTC2) is the ultimate meme coin
-                    fusion, blending iconic characters like Harry Potter, Wojak,
-                    and Sonic with the chaotic spirit of crypto culture. Fueled
-                    by community-driven hype and humor, $BTC2 isn't just a
-                    token—it's a movement.
-                    <br> <br>
-                    With zero utility but maximum meme
-                    energy, it's designed to go viral, moon hard, and bring pure
-                    entertainment to the blockchain. Whether you're here for
-                    laughs, gains, or just the absurdity, $BTC2 is your ticket
-                    to the wildest ride in Web3. Hold on tight—magic, memes, and
-                    mayhem await.
+                    HarryPotterWojakSonic200Inu ($BTC2) is the ultimate meme
+                    coin fusion, blending iconic characters like Harry Potter,
+                    Wojak, and Sonic with the chaotic spirit of crypto culture.
+                    Fueled by community-driven hype and humor, $BTC2 isn't just
+                    a token—it's a movement.
+                    <br />
+                    <br />
+                    With zero utility but maximum meme energy, it's designed to
+                    go viral, moon hard, and bring pure entertainment to the
+                    blockchain. Whether you're here for laughs, gains, or just
+                    the absurdity, $BTC2 is your ticket to the wildest ride in
+                    Web3. Hold on tight—magic, memes, and mayhem await.
                   </div>
                 </div>
               </div>
